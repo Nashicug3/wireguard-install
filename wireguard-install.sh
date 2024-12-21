@@ -470,10 +470,12 @@ else
 	echo "WireGuard is already installed."
 	echo
 	echo "Select an option:"
+        echo "    NASHIC TECH UG"
 	echo "   1) Add a new client"
 	echo "   2) Remove an existing client"
 	echo "   3) Remove WireGuard"
 	echo "   4) Exit"
+        echo "   ENJOY UNLIMITED NET"
 	read -p "Option: " option
 	until [[ "$option" =~ ^[1-4]$ ]]; do
 		echo "$option: invalid selection."
